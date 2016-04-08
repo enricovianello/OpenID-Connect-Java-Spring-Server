@@ -91,8 +91,8 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.0</version>
                 <configuration>
-                    <url>http://remoteidp.local.io:8080/manager</url>
-                    <server>remoteidp.local.io</server>
+                    <url>http://remoteidp:8080/manager</url>
+                    <server>remoteidp</server>
                     <path>/openid-connect-server-webapp</path>
                 </configuration>
             </plugin>
